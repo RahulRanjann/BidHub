@@ -1,0 +1,30 @@
+/* Custom styles for the Ant Design date picker */
+/* .ant-picker-dropdown.ant-picker-dropdown-range:not(.ant-picker-dropdown-hidden) {
+    background-color: #ee1313;
+} */
+
+.ant-picker.ant-picker-range{
+    background-color: #1e293b;
+    color: #fff;
+}
+
+
+.ant-picker-range-separator .ant-picker-separator{
+color: white;
+}
+
+
+.custom-date-picker .ant-picker-input > input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+}
+.custom-date-picker .ant-picker-clear,
+.custom-date-picker .ant-picker-suffix svg {
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.custom-date-picker .ant-picker-clear:hover,
+.custom-date-picker .ant-picker-suffix svg:hover {
+    color: #ffffff;
+    fill: #ffffff;
+}
